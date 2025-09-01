@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    color: #040190;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    color: #171595;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.password-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.password-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.password-form input[type="text"],
+.password-form input[type="email"],
+.password-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.password-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
